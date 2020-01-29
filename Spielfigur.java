@@ -1,24 +1,22 @@
 
 
-public class Spielfigur  {
-	String color="";
-	String name="";
-	public Spielfigur(Object Figur, Object Farb) {
-		
+public class Spielfigur  extends SpielfigureAbstract{
+	public Spielfigur(Figurentyp Figuren, Farbe Farb) {
+		super(Figuren,Farb);
 	}
-	public String getValue() {
+	public Farbe getValue() {
 		return color;
 	}
-	public String getColor() {
+	public Farbe getColor() {
 		return color;
 	}
-	public void setColor(String color) {
+	public void setColor(Farbe color) {
 		this.color = color;
 	}
-	public String getName() {
+	public Figurentyp getName() {
 		return this.name;
 	}
-	public void setName(String name) {
+	public void setName(Figurentyp name) {
 		this.name = name;
 	}
 }

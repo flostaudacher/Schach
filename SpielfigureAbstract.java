@@ -1,4 +1,9 @@
 
 public abstract class SpielfigureAbstract {
-	abstract void insert();
+	Farbe color;
+	Figurentyp name;
+	SpielfigureAbstract(Figurentyp Figuren, Farbe Farb) {
+		color=Farb;
+		name=Figuren;
+	}
 }

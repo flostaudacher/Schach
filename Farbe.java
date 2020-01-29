@@ -4,7 +4,6 @@ public enum Farbe {
 	private int Farbzahl;
 	Farbe(int Farbzahl) {
 		this.Farbzahl=Farbzahl;
-		System.out.println(""+getFarb());
 	}
 	String getFarb() {
 		if(Farbzahl==0) {

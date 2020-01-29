@@ -1,10 +1,9 @@
 
 public enum Figurentyp {
-	P(1),B(20),R(4),K(21),King(2),Queen(22);
+	P(1),B(20),R(4),K(21),C(2),D(22);
 	private int moeglicheFelder;
 	Figurentyp(int moeglicheFelder) {
 		this.moeglicheFelder=moeglicheFelder;
-		System.out.println(""+getFigur());
 	}
 	int getmoeglicheFelder() {
 		return moeglicheFelder;
